@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import useInput from "../hooks/use-input";
 
 const SimpleInput = (props) => {
@@ -73,6 +74,17 @@ const SimpleInput = (props) => {
       </div>
       <div className="form-actions">
         <button disabled={!formIsValid}>Submit</button>
+=======
+const SimpleInput = (props) => {
+  return (
+    <form>
+      <div className='form-control'>
+        <label htmlFor='name'>Your Name</label>
+        <input type='text' id='name' />
+      </div>
+      <div className="form-actions">
+        <button>Submit</button>
+>>>>>>> 7608973b3368a6c51d14a06371a15d05ddc7f397
       </div>
     </form>
   );

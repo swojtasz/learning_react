@@ -79,6 +79,7 @@ button:active {
   border-color: #33059e;
 }
 
+<<<<<<< HEAD
 button:disabled {
   background-color: #ccc;
   color: rgb(75, 75, 75);
@@ -88,6 +89,28 @@ button:disabled {
 
 .form-actions {
   text-align: right;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+=======
+.form-actions {
+  text-align: right;
+>>>>>>> 7608973b3368a6c51d14a06371a15d05ddc7f397
 }
 
 .form-actions button {
