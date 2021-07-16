@@ -79,7 +79,6 @@ button:active {
   border-color: #33059e;
 }
 
-<<<<<<< HEAD
 button:disabled {
   background-color: #ccc;
   color: rgb(75, 75, 75);
@@ -107,10 +106,6 @@ button:disabled {
 
 .error-text {
   color: #b40e0e;
-=======
-.form-actions {
-  text-align: right;
->>>>>>> 7608973b3368a6c51d14a06371a15d05ddc7f397
 }
 
 .form-actions button {
